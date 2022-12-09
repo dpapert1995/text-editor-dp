@@ -25,7 +25,7 @@ console.log('PUT to the database');
     const request = store.put({ id: 1, value: content });
     // Get confirmation of the request.
     const result = await request;
-    console.log('🚀 - data saved to the database', result);
+    console.log('Data saved to the database', result);
   };
 
 // Add logic for a method that gets all the content from the database
